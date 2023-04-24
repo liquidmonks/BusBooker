@@ -1,15 +1,19 @@
-```markdown
 # Bus Booker
 > Your One-Stop Shop for Hassle-Free Bus Ticket Booking
 
 ![Bus Booker Demo](https://your-placeholder-url-for-gif-image.com/demo.gif)
 
 ## Table of Contents
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [Installation and Setup](#installation-and-setup)
-- [Live Demo](#live-demo)
-- [License](#license)
+- [Bus Booker](#bus-booker)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Tech Stack](#tech-stack)
+  - [Installation and Setup](#installation-and-setup)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Live Demo](#live-demo)
+  - [Authors](#authors)
+  - [License](#license)
 
 ## Overview
 Bus Booker is a simple and user-friendly web application that allows you to search, book, and manage bus tickets with ease. Say goodbye to the traditional hassles of bus ticket booking and embrace the convenience of Bus Booker.
@@ -71,6 +75,12 @@ The application should now be running on [http://localhost:3000](http://localhos
 ## Live Demo
 Check out the live demo of the application here: [https://your-placeholder-url-for-live-demo.com](https://your-placeholder-url-for-live-demo.com)
 
+## Authors
+
+- [@liquidmonks](https://www.github.com/liquidmonks)
+
+
+![Logo](https://i.imgur.com/RXZyAtU.png)
+
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
-```
