@@ -24,6 +24,7 @@ Bus Booker is a simple and user-friendly web application that allows you to sear
 - Express JS
 - Node JS
 - Gatsby
+- Lerna
 - PostgreSQL
 - JavaScript ES6
 
