@@ -9,6 +9,7 @@ const headingString: string = "Welcome to Bus Booker";
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" description={undefined} children={undefined} />
+    <h1>{headingString}</h1>
   </Layout>
 )
 
