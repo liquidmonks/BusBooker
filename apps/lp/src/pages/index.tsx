@@ -1,7 +1,7 @@
 import React from "react";
-import Seo from "../components/seo";
+import {Layout, Seo} from "../components";
 import tw from "tailwind-styled-components";
-import {Layout} from "../components/layout";
+
 
 const headingString: string = "Welcome to Bus Booker";
 
