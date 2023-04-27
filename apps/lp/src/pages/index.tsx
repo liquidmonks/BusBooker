@@ -6,10 +6,11 @@ const Title = tw.h1`text-5xl text-green-500 uppercase`;
 const Description = tw.h1`text-2xl text-gray-500`;
 const MainImage = tw.img`rounded-3xl shadow-lg`;
 
-const Section = tw.div`max-w-screen-2xl mx-auto`
+const Section = tw.div`max-w-screen-2xl mx-auto relative`
 const Separator = tw.div`w-10 h-1.5 bg-blue-500`
 
 const Button = tw.button`bg-green-500 px-5 py-3 rounded-xl text-white font-bold uppercase`
+const Gradient = tw.div`absolute inset-0 bg-gradient-to-r from-black to-transparent`
 
 const TextSection = () => (
   <div className="space-y-6" >    
@@ -24,9 +25,18 @@ const TextSection = () => (
   </div>
 )
 
+const GradientBackground = () => (
+  <div className="block">
+ <div className="absolute top-0 left-0 right-0 h-[900px] z-0" >
+  <Gradient />
+ </div>
+ </div>
+)
+
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" description={undefined} children={undefined} />
+    <Seo title="Home" description={undefined} children={undefined} meta={undefined} />
+    <GradientBackground />
     <Section>
       <div className="flex items-center justify-between mt-16 gap-x-8">
    <TextSection />
