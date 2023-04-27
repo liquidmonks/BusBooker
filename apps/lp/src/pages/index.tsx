@@ -10,7 +10,7 @@ const Section = tw.div`max-w-screen-2xl mx-auto relative`
 const Separator = tw.div`w-10 h-1.5 bg-blue-500`
 
 const Button = tw.button`bg-green-500 px-5 py-3 rounded-xl text-white font-bold uppercase`
-const Gradient = tw.div`absolute inset-0 bg-gradient-to-r from-black to-transparent`
+const Gradient = tw.div`absolute inset-0 bg-gradient-radial-hero`
 
 const TextSection = () => (
   <div className="space-y-6" >    
