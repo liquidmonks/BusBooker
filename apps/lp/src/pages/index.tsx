@@ -31,7 +31,7 @@ const TextSection = () => (
   <LogoTitle />
   <Description>
     {
-      "Experience the ultimate in luxury and convenience on the open road with The Elite Bus Co.'s high-end fleet, state-of-the-art amenities, and commitment to safety."
+      "Experience the ultimate in luxury and convenience on the open road with The Elite Bus Company's high-end fleet, state-of-the-art amenities, and commitment to safety."
     }
   </Description>
   <Button>{"Create Account"}</Button>
