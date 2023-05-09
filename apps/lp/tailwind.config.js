@@ -4,8 +4,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-radial-hero": "radial-gradient(farthest-corner at 20% 50%, #ffffffff 15%, #88A4BF 120%)",
+        "gradient-radial-hero": 
+        "radial-gradient(farthest-corner at 20% 50%, #ffffffff 15%, #88A4BF 120%)",
     },
+    fontFamily: {
+      title: ["'Montserrat'"],
+    }
   },
 },
   plugins: [],
