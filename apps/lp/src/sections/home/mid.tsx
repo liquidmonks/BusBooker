@@ -10,11 +10,31 @@ const TopPart = ({ section }) => (
     </>
 )
 
+const FeatureItem = ({ feature }) => (
+    <div>
+        <div>{<feature.icon />}</div>
+        <div>
+            <h5>{feature.title}</h5>
+            <p>{feature.description}</p>
+        </div>
+    </div>
+)
+
 export const MidSection = ({ section }) => (
     <Section>
 <TopPart section={section} />
-<div>
-    
-</div>
+    <div className="flex justify-between">
+        <div>
+            <img src={section.imageUrl} alt={section.imageAlt} />
+        </div>
+        <div>
+            <h3>{section.featuresTitle}</h3>
+            <div>
+                {section.features.map(feature => (
+                    <FeatureItem feature={feature} />
+                ))}
+            </div>
+        </div>
+        </div>
     </Section>
 ) 
